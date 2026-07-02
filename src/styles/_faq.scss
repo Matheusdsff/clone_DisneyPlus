@@ -38,6 +38,7 @@
                 transition: height, .5s ease;
                 &__disclaimer {
                     padding: 24px 0;
+                    margin-bottom: 12px;
                 }
                 &__description {
                     padding: 12px 0;
@@ -57,3 +58,4 @@
         }
     }
 }
+
