@@ -4,8 +4,7 @@
 @use 'Plans';
 @use 'available-devices';
 @use 'faq';
-
-
+@use 'footer';
 
 @font-face {
     font-family: avenir;
@@ -37,7 +36,7 @@ li {
 @mixin text ($fontSize: 16px) {
     font-size: $fontSize;
     line-height: $fontSize + 10px;
-    color: variaveis.$CorTextoPrincipal;
+    color: variaveis.$corTextoPrincipal;
 }
 
 @mixin title($fontSize: 40px) {
